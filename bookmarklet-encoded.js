@@ -1,0 +1,1 @@
+javascript:(function()%20%7Bvar%20list%20%3D%20document.getElementsByTagName('a')%2C%20i%20%3D%200%2Cwin%20%3D%20window.location.hostname%3Bfor%20(i%3B%20i%20%3C%20list.length%3B%20i%2B%2B)%20%7Bif%20(list%5Bi%5D.href.indexOf(win)%20%3D%3D%3D%20-1)%20%7Blist%5Bi%5D.target%20%3D%20'_blank'%3B%7D%7D%7D)()%3B
